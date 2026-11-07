@@ -1,3 +1,20 @@
+/*
+Write a program that reads a list of words.
+Then, the program outputs those words and their frequencies.
+
+Input:
+5 hey hi Mark hi mark
+
+Output:
+hey - 1
+hi - 2
+Mark - 1
+hi - 2
+mark - 1
+
+Hint: Use two arrays.
+*/
+
 import java.util.Scanner;
 
 public class WordFrequency {
