@@ -2,8 +2,6 @@ import java.util.Scanner;
 
 public class LabProgram {
    public static void main(String[] args) {
-      
-      // getting scanner input
       Scanner scnr = new Scanner(System.in);
 
       int word_count = scnr.nextInt();
@@ -24,7 +22,6 @@ public class LabProgram {
       }
       
       System.out.println();
-
       scnr.close();
    }
 }
