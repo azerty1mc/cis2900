@@ -1,0 +1,57 @@
+Step 1 (1 pt): Read two strings from input separated by a comma.
+Prompt the user for a string that contains two strings separated by a comma. Examples of strings that are accepted:
+
+Jill, Allen
+Jill , Allen
+Jill,Allen
+Ex:
+
+Enter input string:
+Jill, Allen
+
+
+Step 2 (2 pts): Validate input for comma presence.
+Report an error as shown in the example, if the input string does not contain a comma. Continue to prompt until a valid string is entered. 
+
+Note: If the input contains a comma, then assume that the input also contains two strings.
+
+Ex:
+
+Enter input string:
+Jill Allen
+Error: No comma in string.
+
+Enter input string:
+Jill, Allen
+Step 3 (2 pts): Extract and strip two words from input.
+Extract the two words from the input string and remove any spaces. Store the strings in two separate variables and output the strings as shown in the example.
+
+Ex:
+
+Enter input string:
+Jill, Allen
+First word: Jill
+Second word: Allen
+Step 4 (2 pts): Extend program to process multiple lines until q is entered.
+Using a loop, extend the program to handle multiple lines of input. Continue until the user enters q to quit.
+
+Ex:
+
+Enter input string:
+Jill, Allen
+First word: Jill
+Second word: Allen
+
+Enter input string:
+Golden , Monkey
+First word: Golden
+Second word: Monkey
+
+Enter input string:
+Washington,DC
+First word: Washington
+Second word: DC
+
+Enter input string:
+q
+
