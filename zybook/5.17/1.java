@@ -3,11 +3,9 @@ import java.util.Scanner;
 public class LabProgram {
    public static void main(String[] args) {
 
-      // getting scanner input
       Scanner input_scan = new Scanner(System.in);
       String input = input_scan.nextLine();
 
-      // using 1st number as length
       String[] input_split = input.split("\\s+");
       int string_count_int = Integer.parseInt(input_split[0]);
       
