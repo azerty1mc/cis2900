@@ -14,11 +14,9 @@ public class LabProgram {
 
       while (inFS.hasNextLine()) {
          String park = inFS.nextLine();
-
          String park_replaced = park.replace("photo.jpg","info.txt");
          System.out.println(park_replaced);
       }
-      
       inFS.close();
    }
 }
